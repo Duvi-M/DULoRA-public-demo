@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dulora-public-demo"
+version = "0.1.0"
+description = "Sanitized public software demonstration for DULoRA research."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Duvan Mendoza" },
+]
+keywords = [
+  "LoRA",
+  "PEFT",
+  "PyTorch",
+  "Transformers",
+  "research software",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "torch>=2.2",
+  "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+ml = [
+  "transformers>=4.40",
+  "datasets>=2.18",
+  "peft>=0.10",
+  "accelerate>=0.28",
+]
+dev = [
+  "pytest>=7.0",
+]
+
+[project.urls]
+Repository = "https://github.com/Duvi-M/DULoRA-public-demo"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

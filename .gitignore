@@ -1,0 +1,87 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.*
+secrets.*
+kaggle.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Datasets, models, and checkpoints
+data/
+datasets/
+models/
+pretrained/
+downloads/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+
+# Experiment outputs and tracking
+outputs/
+results/
+artifacts/
+predictions/
+logs/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+
+# Framework caches
+.cache/
+.huggingface/
+.transformers/
+torch_cache/
+
+# Private research material
+configs/private/
+configs/internal/
+experiments/internal/
+docs/internal/
+thesis_notes/
+thesis_material/
+private/
+DOLOra_interview_brief.md
+DULoRA_algorithm_workflow_defense.md
+DULoRA_45s_slide_narration.md
+dulora_runtime_flow.html
+
+# Temporary, IDE, and OS files
+*.tmp
+*.temp
+*.log
+*.swp
+*~
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

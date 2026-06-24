@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this public software demonstration, please cite it as below."
+title: "DULoRA Public Demo"
+type: software
+authors:
+  - family-names: "Mendoza"
+    given-names: "Duvan"
+repository-code: "https://github.com/Duvi-M/DULoRA-public-demo"
+abstract: >-
+  A sanitized research software demonstration for studying modular,
+  budget-aware LoRA rank allocation workflows without distributing the
+  unpublished DULoRA scoring and allocation method.
+keywords:
+  - LoRA
+  - parameter-efficient fine-tuning
+  - PyTorch
+  - Transformers
+  - PEFT
+license: MIT
+version: 0.1.0
+date-released: 2026-06-24

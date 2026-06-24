@@ -1,0 +1,32 @@
+project:
+  name: dulora-public-demo
+  mode: demonstration
+
+seed: 7
+
+dataset:
+  source: synthetic
+  train_size: 32
+  eval_size: 16
+  sequence_length: 12
+  vocab_size: 64
+  num_labels: 2
+
+training:
+  epochs: 1
+  batch_size: 8
+  learning_rate: 0.01
+
+demo_allocator:
+  strategy: round_robin
+  layer_names:
+    - encoder.block_a
+    - encoder.block_b
+    - encoder.block_c
+    - encoder.block_d
+  min_rank: 1
+  max_rank: 3
+  rank_step: 1
+  total_budget: 8
+
+output_dir: outputs/demo
