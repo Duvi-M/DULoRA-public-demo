@@ -28,5 +28,3 @@ demo_allocator:
   max_rank: 3
   rank_step: 1
   total_budget: 8
-
-output_dir: outputs/demo
