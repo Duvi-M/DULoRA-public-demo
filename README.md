@@ -27,8 +27,6 @@ Hugging Face Transformers and PEFT. It uses synthetic/offline data, a compact
 toy classifier, a public allocator interface, and a deterministic demonstration
 allocator.
 
-![DULoRA public demo conceptual pipeline](assets/public_pipeline.png)
-
 ---
 
 ## Table of Contents
@@ -40,7 +38,6 @@ allocator.
 - [Adaptive Rank Allocation Algorithm](#adaptive-rank-allocation-algorithm)
 - [Pipeline Overview](#pipeline-overview)
 - [Current Public Demo Results](#current-public-demo-results)
-- [Generated Public Demo Figures](#generated-public-demo-figures)
 - [Generated Demo Outputs](#generated-demo-outputs)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
@@ -238,23 +235,6 @@ Accuracy, F1, and loss printed by the scripts are **toy runtime diagnostics**.
 They are not benchmark results and must not be cited as DULoRA research
 performance.
 
-![Synthetic rank assignment produced by the demo allocator](assets/demo_rank_pattern.png)
-
----
-
-## Generated Public Demo Figures
-
-The only figures distributed in this repository are public-safe conceptual
-assets:
-
-| Figure | Description |
-| --- | --- |
-| `assets/public_pipeline.png` | High-level public workflow diagram. |
-| `assets/demo_rank_pattern.png` | Synthetic assignment chart generated from the demo allocator. |
-
-No private plots, thesis figures, benchmark charts, heatmaps, or layer-level
-research artifacts are included.
-
 ---
 
 ## Generated Demo Outputs
@@ -284,8 +264,7 @@ These paths are ignored by `.gitignore`.
 DULoRA-public-demo/
 │
 ├── assets/
-│   ├── public_pipeline.png
-│   └── demo_rank_pattern.png
+│   └── .gitkeep
 │
 ├── configs/
 │   └── public/
