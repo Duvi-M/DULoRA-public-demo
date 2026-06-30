@@ -1,5 +1,7 @@
 # DULoRA Public Demo: Dynamic Utility-based LoRA Rank Allocation
 
+[English](README.md) | [Русский](README.ru.md)
+
 ### Public-safe research software demo for modular LoRA workflows
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
