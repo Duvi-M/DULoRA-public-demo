@@ -44,6 +44,9 @@ ml = [
 dev = [
   "pytest>=7.0",
 ]
+docs = [
+  "matplotlib>=3.8",
+]
 
 [project.urls]
 Repository = "https://github.com/Duvi-M/DULoRA-public-demo"

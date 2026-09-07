@@ -40,6 +40,16 @@ python scripts/demo/run_demo.py
 pytest -q
 ```
 
+Public README figures can be regenerated with:
+
+```bash
+python -m pip install -e ".[docs]"
+python scripts/demo/generate_public_assets.py
+```
+
+The generated figures are conceptual/synthetic and do not depend on private
+experiment artifacts.
+
 ## Optional online components
 
 The Transformers/PEFT builder and Hugging Face dataset helper require network

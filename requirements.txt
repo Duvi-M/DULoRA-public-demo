@@ -1,3 +1,3 @@
-# Convenience installation with all public demo features and test tooling.
+# Convenience installation with all public demo features, figure tooling, and tests.
 # For a minimal offline installation, use: python -m pip install -e .
--e .[ml,dev]
+-e .[ml,dev,docs]
